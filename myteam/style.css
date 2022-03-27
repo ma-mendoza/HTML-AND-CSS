@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+body{
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+ 
+}
+h1, span, p, h3{
+    font-family: 'PT Serif', serif;
+}
+h3,span{
+    text-transform: uppercase;
+
+}
+span{
+    writing-mode: vertical-rl;
+    font-weight: 400;
+}
+ .figtxt{
+     display: flex;
+     width: 100%;
+    
+ }
+img{
+    max-width: 450px;
+    max-height: 450px;
+   
+}
+.pfp{
+    object-fit: cover;
+}
+.name{
+
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-family: 'PT Serif', serif;
+}
+.holder{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    max-height: 1200px;
+}
+#figurecon{
+    display: flex;
+    flex-direction: column;
+    
+}
+.pfp{
+    width: 100%;
+  object-fit: contain;
+}
+ 
+ .figcontxt-1{
+     display: flex;
+      
+     justify-content: flex-start;
+ }
+ .figcontxt-2{
+    display: flex;
+    margin-top: 150px;
+     
+}
+.figcontxt-3{
+    display: flex;
+    justify-content: flex-start;
+}
+.figcontxt-4{
+    display: flex;
+    justify-content: flex-start;
+}
+.figcontxt-5{
+    display: flex;
+    margin-top: 150px;
+    justify-content: flex-start;
+}
+.figcontxt-6{
+    display: flex;
+    justify-content: flex-start;
+}
